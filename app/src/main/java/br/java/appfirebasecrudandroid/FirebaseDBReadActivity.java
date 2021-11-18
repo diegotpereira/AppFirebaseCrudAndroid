@@ -2,6 +2,8 @@ package br.java.appfirebasecrudandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import br.java.appfirebasecrudandroid.adapter.ProdutoAdapter;
@@ -18,5 +20,9 @@ public class FirebaseDBReadActivity extends AppCompatActivity implements Produto
     @Override
     public void onDeleteData(Produto produto, int position) {
 
+    }
+
+    public static Intent getActIntent(Activity activity) {
+        return new Intent(activity, FirebaseDBReadSingleActivity.class);
     }
 }

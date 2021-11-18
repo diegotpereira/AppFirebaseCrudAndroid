@@ -12,11 +12,10 @@ public class Produto implements Serializable {
     public Produto() {
     }
 
-    public Produto(String nome, String marca, String preco, String key) {
+    public Produto(String nome, String marca, String preco) {
         this.nome = nome;
         this.marca = marca;
         this.preco = preco;
-        this.key = key;
     }
 
     public String getNome() {
