@@ -17,7 +17,7 @@
 
     <Button
         android:id="@+id/bt_fbanalytics"
-        android:text="Analíticos"
+        android:text="Análises"
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

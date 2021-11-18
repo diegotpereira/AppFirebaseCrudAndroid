@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_ad_mob.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_ad_mob_banner.xml" value="0.2625" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_ad_mob_interstitial.xml" value="0.2625" />
         <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_analytics.xml" value="0.1" />
         <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_auth.xml" value="0.1" />
         <entry key="..\:/Users/administrator/AndroidStudioProjects/AppFirebaseCrudAndroid/app/src/main/res/layout/activity_firebase_dbactivity.xml" value="0.11574074074074074" />
