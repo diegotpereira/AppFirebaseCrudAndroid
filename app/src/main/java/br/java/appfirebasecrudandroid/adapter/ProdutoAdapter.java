@@ -27,10 +27,10 @@ public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.ViewHold
     private Context context;
     FirebaseDataListener listener;
 
-    public ProdutoAdapter(ArrayList<Produto> produtos, Context context) {
+    public ProdutoAdapter(ArrayList<Produto> produtos, Context ctx) {
         listaItens = produtos;
-        context = context;
-        listener = (FirebaseDBReadActivity) context;
+        context = ctx;
+        listener = (FirebaseDBReadActivity) ctx;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -62,6 +62,7 @@ public class ProdutoAdapter extends RecyclerView.Adapter<ProdutoAdapter.ViewHold
             @Override
             public void onClick(View view) {
                 context.startActivity(FirebaseDBReadSingleActivity.getActIntent((Activity) context).putExtra("dado", listaItens.get(position)));
+
             }
         });
         holder.cvMain.setOnLongClickListener(new View.OnLongClickListener() {
