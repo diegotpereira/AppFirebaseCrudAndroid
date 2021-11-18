@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.java.appfirebasecrudandroid">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppFirebaseCrudAndroid">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7035719539214555~8973788185"/>
+        <activity
+            android:name=".FirebaseAdMobVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseAdMobNativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseAdMobInterstitialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseAdMobBannerActivity"
+            android:exported="false" />
         <activity
             android:name=".FirebaseDBActivity"
             android:exported="false" />
